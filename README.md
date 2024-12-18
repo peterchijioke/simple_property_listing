@@ -154,5 +154,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any inquiries or feedback, feel free to contact:
 
-**Your Name**: [Your Email Address]  
-GitHub: [Your GitHub Profile URL]  
+**Your Name**: chukwu.peter.chijioke@gmail.com  
+GitHub: https://github.com/peterchijioke  
