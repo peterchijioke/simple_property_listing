@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency lock file
+pnpm-lock.yaml
+
+# Output directories
+dist/
+build/
+.cache/
+out/
+.tmp/
+
+# Testing
+coverage/
+.jest/
+
+# Environment variables
+.env
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Local workspace settings
+*.local
+
+# pnpm workspace configuration
+pnpm-workspace.yaml
