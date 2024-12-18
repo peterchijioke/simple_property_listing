@@ -11,6 +11,6 @@ const initHandler = async (req: Request, res: { json: (arg0: { message: string; 
 
 router.get('/',initHandler)
 
-router.use('/property', propertyRoute);
+router.use('/properties', propertyRoute);
 
 export default router;

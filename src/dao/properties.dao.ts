@@ -11,8 +11,9 @@ class PropertiesDAO {
     return this.propertyList.slice(startIndex, endIndex);
   }
 
-  async getAllProperties(): Promise<Property[]> {
-    return this.propertyList;
+ async getProperty(id: number): Promise<Property | null> {
+    const property = this.propertyList.find(property => property.id === id);
+    return property || null; 
   }
 }
 
